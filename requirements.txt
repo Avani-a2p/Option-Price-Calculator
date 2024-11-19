@@ -11,3 +11,4 @@ plotly
 seaborn
 python-dateutil
 brotli
+beautifulsoup4
