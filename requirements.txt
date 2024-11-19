@@ -1,0 +1,13 @@
+appdirs
+pandas
+yfinance==0.2.43
+streamlit
+numpy
+nsepython
+nselib
+altair
+scipy
+plotly
+seaborn
+python-dateutil
+brotli
