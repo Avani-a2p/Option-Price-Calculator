@@ -4,7 +4,6 @@ import sys
 import warnings
 import brotli
 import json
-from panel.interact import interact
 warnings.filterwarnings('ignore')
 from bs4 import BeautifulSoup
 import numpy as np
