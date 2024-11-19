@@ -14,8 +14,6 @@ from datetime import date
 from nselib import capital_market
 import yfinance as yf
 from dateutil.relativedelta import relativedelta 
-import panel as pn
-pn.extension()
 start_date = (date.today() - relativedelta(years=1)).strftime('%Y-%m-%d')
 end_date = (date.today() - relativedelta(days=1)).strftime('%Y-%m-%d')
 st.set_page_config(page_title = "Option Price Calculator",layout="wide",page_icon=":material/bar_chart:")
